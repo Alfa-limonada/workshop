@@ -9,6 +9,7 @@ document.getElementById("btnRegistrar").onclick = () => {
   const contra = document.getElementById("password_signin").value;
   const nombre = document.getElementById("username_signin").value;
   bodyContent = {
+    auth: 'C',
     name: `${nombre}`,
     email: `${usuario}`,
     password: `${contra}`,

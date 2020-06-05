@@ -15,8 +15,8 @@ const config = {
     // },
     MysqlConfig: {
         Db: "workshop_viajes",
-        User: "nombre_usuario",
-        Password: "tu_contrasena",
+        User: "user",
+        Password: "password",
         Host: "localhost",
         Dialect: "mysql",
     },
